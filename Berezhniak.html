@@ -5,8 +5,34 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <title>Document</title>
+            <link rel="stylesheet" href="styles.css">
         </head>
         <body background="image/bg.jpg" > 
+            <button onclick="restart()">Restart</button>
+            <label id="label" class="statusLabel"></label>
+            <div class="Game">
+                <table>
+                    <tr>
+                        <th><input type="button" id="1" onclick="checkPlayer(this.id)"> </button></th>
+                        <th><input type="button" id="2" onclick="checkPlayer(this.id)"> </button></th>
+                        <th><input type="button" id="3" onclick="checkPlayer(this.id)"> </button></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" id="4" onclick="checkPlayer(this.id)"> </button></th>
+                        <th><input type="button" id="5" onclick="checkPlayer(this.id)"> </button></th>
+                        <th><input type="button" id="6" onclick="checkPlayer(this.id)"> </button></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" id="7" onclick="checkPlayer(this.id)"> </button></th>
+                        <th><input type="button" id="8" onclick="checkPlayer(this.id)"> </button></th>
+                        <th><input type="button" id="9" onclick="checkPlayer(this.id)"> </button></th>
+                    </tr>
+                    
+                </table>
+            </div>
+        
+            <script src="application.js"></script>
+
             <table border="1" align="center" cellpadding="10">
                 <hr>
                 <h1 align="center"<> <font color="green">Реєстрація</font></h1>
